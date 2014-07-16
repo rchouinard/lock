@@ -11,7 +11,7 @@ Installation is best managed via [Composer](https://getcomposer.org/).
 ```json
 {
     "require": {
-        "rych/lock": "dev-master@dev"
+        "rych/lock": "1.0.*"
     }
 }
 ```
@@ -19,7 +19,7 @@ Installation is best managed via [Composer](https://getcomposer.org/).
 Or:
 
 ```
-composer require rych/lock=dev-master@dev
+composer require rych/lock=1.0.*
 ```
 
 Usage
