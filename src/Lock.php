@@ -177,7 +177,7 @@ class Lock
      *
      * @return string|false Will return the pid as a string or FALSE on failure.
      */
-    protected function readLockPid()
+    public function readLockPid()
     {
         $filename = sprintf("%s/%s.lock", $this->bucket, self::cleanName($this->name));
         $pid = @file_get_contents($filename);
